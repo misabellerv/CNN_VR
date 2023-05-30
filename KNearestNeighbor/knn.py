@@ -77,5 +77,5 @@ class KNearestNeighbor(object):
         y_pred = np.zeros(n_test)
         for i in range(n_test):
             closest_y = self.y_train[dists[i].argsort()[:k]]
-            y_pred[i] = np.argmax(np.bincount(closest_y))
+            y_pred[i] = np.argmax(np.bincount(closest_y.ravel()))
         return y_pred
