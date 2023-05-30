@@ -17,7 +17,12 @@ Here you can find implementations with good programming practices (OOP) applied 
 
 ## :rocket: : Running the codes
 The repository is divided between algorithms (KNN, SVM, etc). You can clone the repo and if you want to do your own experiments, just import the .py codes that contain the main training and testing functions in a new code that you are using your data.
-If you want to be sure it works in your machine, just use the command line
+If you want to be sure it works in your machine, just use the command line:
 ```
 pip install requirements.txt
 ```
+and then run the implementation versions of the codes:
+```
+python3 *_implementation.py
+```
+where * denotes the algorithm used.
